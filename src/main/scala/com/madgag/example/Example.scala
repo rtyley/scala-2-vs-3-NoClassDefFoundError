@@ -1,11 +1,11 @@
-package com.madgag
+package com.madgag.example
 
 import com.madgag.compress.CompressUtil._
 
 import java.io.ByteArrayInputStream
 import java.nio.file.Files.createTempDirectory
 
-package object example { // Not using a package object allows Scala 3.0.0 to succeed
+object Example {
   def useCompressUtils(): Unit = {
     getClass // removing this allows Scala 3.0.0 to succeed.
 

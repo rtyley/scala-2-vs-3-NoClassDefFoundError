@@ -1,5 +1,6 @@
 package com.madgag.example
 
+import com.madgag.example.Example.useCompressUtils
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.should._
 
