@@ -1,5 +1,7 @@
 scalaVersion := "2.13.5"
 
+Test / classLoaderLayeringStrategy := ClassLoaderLayeringStrategy.ScalaLibrary
+
 crossScalaVersions := Seq(scalaVersion.value, "2.12.13", "3.0.0")
 
 libraryDependencies ++= Seq(
